@@ -1,0 +1,40 @@
+/* Footer.css */
+/* Footer.css */
+.footer {
+    background-color: #093e3e; /* Turquoise */
+    color: #ffdd00; /* Cream */
+    text-align: center;
+    padding: 20px 10px;
+    font-family: 'Arial', sans-serif;
+    position: relative; /* Changed from absolute to relative */
+    width: 100%;
+    bottom: 0;
+    margin-top: auto; /* Ensures the footer stays at the bottom when content is shorter */
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .footer-links {
+    margin-top: 10px;
+  }
+  
+  .footer-link {
+    color: #ffdd00; /* Cream */
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+    transition: color 0.3s;
+  }
+  
+  .footer-link:hover {
+    color: #ffffff; /* White */
+  }
+  

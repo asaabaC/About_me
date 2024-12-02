@@ -1,0 +1,144 @@
+/* Main container for the page */
+.home-container {
+    text-align: center;
+    padding: 2rem;
+    background-color: #40e0d0; /* Turquoise background color */
+    min-height: 100vh; /* Ensures the container covers the full viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers content horizontally */
+    position: relative; /* Allows positioning of the image */
+}
+
+/* Styling for the profile image */
+.home-image {
+    position: absolute;
+    top: 20px; /* Distance from the top */
+    right: 20px; /* Distance from the right */
+    width: 230px; /* Reduced image width */
+    height: 420px; /* Reduced image height */
+    object-fit: cover; /* Ensures the image fits the given dimensions */
+    border-radius: 20%; /* Rounded corners for unique shape */
+    box-shadow: 5px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Styling for the main content box */
+.white-box {
+    background-color: white;
+    color: black;
+    margin: 1rem auto; /* Reduced vertical spacing */
+    padding: 1.5rem; /* Compact inner padding */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 75%; /* Reduced overall width */
+    max-width: 700px; /* Smaller maximum width */
+    text-align: center; /* Centers text inside the box */
+}
+
+/* Header styles */
+.white-box header h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333; /* Dark text color for better readability */
+}
+
+.white-box header p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    word-wrap: break-word; /* Ensures long text wraps properly */
+}
+
+/* Section titles */
+.white-box section h2 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    color: #089898; /* Teal color for headings */
+}
+
+/* Paragraphs within sections */
+.white-box section p {
+    font-size: 0.9rem;
+    margin: 1rem 0;
+    color: #555; /* Medium gray for paragraph text */
+}
+
+/* Unordered list styling */
+.white-box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.white-box ul li {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.white-box ul li strong {
+    font-weight: bold;
+    color: #089898; /* Teal color for highlighted text */
+}
+
+/* Footer text */
+.white-box footer p {
+    margin-top: 1.5rem;
+    font-size: 0.8rem;
+    color: #333;
+}
+
+/* Links */
+.white-box a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.white-box a:hover {
+    color: darkblue;
+    text-decoration: none; /* Removes underline on hover */
+}
+
+/* Skills Section Styling */
+.home-container section h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #089898; /* Consistent teal for section headings */
+}
+
+.home-container section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.home-container section ul li {
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.home-container section ul li strong {
+    font-weight: bold;
+    color: #089898;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+    .home-image {
+        position: static; /* Makes the image flow naturally in the layout */
+        margin: 0 auto 20px; /* Centers the image and adds spacing below */
+        width: 120px; /* Further reduced image size */
+        height: 120px; /* Makes the image square */
+        border-radius: 50%; /* Fully circular on small screens */
+    }
+
+    .white-box {
+        padding: 1rem; /* Reduced padding */
+        width: 90%; /* Compact width on smaller screens */
+        max-width: 400px; /* Further compact container */
+    }
+}
+
+/* Add spacing between skills sections */
+.skills-list > li + .skills-spacing {
+    margin-top: 15px; /* Adjusted spacing for compactness */
+}

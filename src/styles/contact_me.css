@@ -1,0 +1,46 @@
+.contact-me-container {
+    background-color: #f0f0f0; /* Light gray */
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 800px;
+    margin: 50px auto;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .contact-me-container h1 {
+    font-size: 2.2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 24px;
+    font-weight: 600;
+  }
+  
+  .contact-me-container p {
+    font-size: 1.3rem;
+    color: #444;
+    text-align: center;
+    margin-bottom: 24px;
+    line-height: 1.6;
+  }
+  
+  .contact-me-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-me-container li {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 12px;
+  }
+  
+  .contact-me-container a {
+    color: #007bff; /* Blue */
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .contact-me-container a:hover {
+    color: #0056b3; /* Darker blue */
+    text-decoration: underline;
+  }
